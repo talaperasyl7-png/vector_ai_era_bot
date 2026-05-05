@@ -1,5 +1,14 @@
-# vim: set ft=rst:
+# Talapov AI — Қазақ тіліндегі интеллектуалды Telegram-бот
 
-See https://help.pythonanywhere.com/ (or click the "Help" link at the top
-right) for help on how to use PythonAnywhere, including tips on copying and
-pasting from consoles, and writing your own web applications.
+Бұл жоба қазақ және орыс тілдеріндегі сұрақтарды түсініп, мағыналы жауап беретін чат-ботты жасауға арналған.
+
+## Негізгі ерекшеліктері:
+- **Llama 3.3** үлкен тілдік моделі (Meta) негізінде жұмыс істейді.
+- **Groq API** арқылы жоғары жылдамдықты жауап береді.
+- Диалог тарихын есте сақтайды (Context memory).
+- Қазақ тіліндегі техникалық және жалпы сұрақтарға еркін жауап береді.
+
+## Технологиялық стек:
+- Python
+- Groq Cloud Platform
+- Aiogram / Telebot (Telegram Bot API)
